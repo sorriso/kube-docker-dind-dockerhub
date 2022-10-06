@@ -8,8 +8,10 @@ Kubernetes yaml configuration files for docker-dind using docker hub image (with
 
 ## prerequisite:
 
-- none
+- Rancher desktop (or equivalent) installed locally & running with "containerd" selected as main command tool
 
 ## How to make it working :
 
-- use it as template for jenkins build
+- run /build/0-build-image.sh to build & upload the image "l_docker:dind" in k8s.io local repository
+
+- use the image "l_docker:dind" as template in your jenkins build
