@@ -5,6 +5,7 @@ you like this work ?
 # kube-docker-dind-dockerhub
 
 Kubernetes yaml configuration files for docker-dind using docker hub image (with small tuning)
+to be used by jenkins via kubernetes to build docker images
 
 ## prerequisite:
 
